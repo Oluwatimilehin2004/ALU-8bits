@@ -4,6 +4,8 @@ Fala galera! Esse repositório guarda a minha ALU (Arithmetic Logic Unit) de 8 b
 
 A ideia aqui não foi usar "caixas pretas" ou blocos prontos que fazem a matemática por você. Cada soma, multiplicação e divisão foi construída no nível dos transistores, juntando porta lógica por porta lógica.
 
+Aqui esta o video onde eu explico o projeto: [Video Explicativo](https://www.youtube.com/watch?v=pqdzxHuZreo)
+
 ## O que essa ALU faz?
 Ela recebe dois números de 8 bits (A e B) e, dependendo do "canal" que você escolher no Seletor (OPCODE), ela faz uma das seguintes operações:
 
@@ -27,7 +29,8 @@ Toda essa organização passa por um **Multiplexador (MUX) de 8 canais**, que at
 
 ## Como rodar o projeto
 1. Você vai precisar do simulador lógico **[Digital](https://github.com/hneemann/Digital)** instalado no seu PC (roda em Windows e Linux).
-2. Clone este repositório.
+2. Baixe todos os arquivos `.dig` na sua pasta de documentos.
 3. Abra o arquivo principal (`ALU.dig`) dentro do programa.
 4. Dê o Play na simulação lá no topo.
 5. Coloque os valores nas entradas `A` e `B`, escolha a operação no botão de `OPCODE` e dê um pulso no botão de `Clock` para salvar o resultado no Acumulador!
+6. Qualquer duvida veja o [Video Explicativo](https://www.youtube.com/watch?v=pqdzxHuZreo) ou entre em contato.
