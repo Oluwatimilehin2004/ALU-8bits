@@ -34,3 +34,7 @@ Toda essa organização passa por um **Multiplexador (MUX) de 8 canais**, que at
 4. Dê o Play na simulação lá no topo.
 5. Coloque os valores nas entradas `A` e `B`, escolha a operação no botão de `OPCODE` e dê um pulso no botão de `Clock` para salvar o resultado no Acumulador!
 6. Qualquer duvida veja o [Video Explicativo](https://drive.google.com/file/d/15fg-e287JZY6VHjWE1TchTIG7yuPIzob/view?usp=sharing) ou entre em contato.
+
+---
+## 📦 Imported from [https://github.com/gubidev/ALU-8bits](https://github.com/gubidev/ALU-8bits)
+*Imported using ForkYouToo - Learn, Adapt, Build*
